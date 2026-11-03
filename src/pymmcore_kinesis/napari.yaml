@@ -1,0 +1,10 @@
+name: pymmcore-kinesis
+display_name: Thorlabs Kinesis
+contributions:
+  commands:
+    - id: pymmcore-kinesis.rotation_stages
+      title: Thorlabs rotation stages (KDC101) loaded in Micro-Manager
+      python_name: pymmcore_kinesis:RotationStagesWidget
+  widgets:
+    - command: pymmcore-kinesis.rotation_stages
+      display_name: Rotation Stages
